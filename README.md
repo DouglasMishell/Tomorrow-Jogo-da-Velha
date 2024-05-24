@@ -1,2 +1,2 @@
 # Tomorrow-Jogo-da-Velha
-Projeto para a capacitação Javascript básico
+Projeto para a capacitação Javascript básico na UFBA
