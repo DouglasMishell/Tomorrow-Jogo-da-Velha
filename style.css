@@ -1,0 +1,145 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Itim', cursive;
+}
+
+body {
+  background-image: linear-gradient(  #ffffff,#fce97c);
+
+  height: 100vh;
+  padding-top: 1px;
+  
+}
+img{
+  text-align: center;
+  left: 40%;
+  position: absolute;
+}
+h1{
+  color:#f38c05;
+  text-align: center;
+  padding: 50px;
+}
+
+.container{
+  top: 10%;
+  
+  position:relative;
+  margin: 0 auto;
+  max-width: 300px;
+  padding:20px;
+  border-radius: 10px;  
+  
+  
+}
+  .container.hide{
+    display: none;
+  transition: all 1s ease;
+
+  }
+  .textoResultado{
+  
+    margin-top: 30%;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+  
+  }
+ .resultado .btn{
+  width: 100%;
+  margin-top: -20%;
+  display: flex;
+  justify-content: center;
+
+  }
+  .btn button{
+    font-size: 18px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: none;
+  display: block;
+  background: #f80505;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+.resultado{
+  display: none;
+}
+.resultado.show{
+  border-radius: 6px;
+  transition-property: all;
+  background-color: #f38c05;
+  top:25% ;
+  left: 25%;
+  width: 50%;
+
+  height: 180px;
+  
+  opacity: 1;
+  position:absolute;
+  
+  transition: all 0.3s ease;
+  display: block;
+  animation: float 3s ease-in-out infinite;
+  
+}
+
+@keyframes float {
+  0%,100%{
+    transform:translateY(0)
+  }50%{
+    transform:translateY(-30PX);
+  }
+  
+}
+
+.resultado .textoResultado{
+  position: relative;
+  left: 6px;
+  top: -200px;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  
+}
+.resultado .textoResultado p{
+  font-weight: 600;
+  margin: 0 5px;
+}
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cell {
+
+  
+ 
+  width: 75px;
+  height: 65px;
+  font-size: 30pt;
+  margin: 4px 2px;
+  font-weight: 300;
+  padding-top: 10px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid black;
+  transition: all 1s ease;
+  cursor: pointer;
+  
+}
+
+.noClick{
+  pointer-events: none;
+}
