@@ -1,6 +1,5 @@
 # Tomorrow-Jogo-da-Velha
 
- <img src="https://github.com/DouglasMishell/Tomorrow-Jogo-da-Velha/blob/main/image-2.png?raw=true" >
 
 
 <h1>Projeto para a capacitação Javascript básico na UFBA</h1>
